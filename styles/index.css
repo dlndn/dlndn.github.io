@@ -3,6 +3,8 @@ body {
   margin: 0;
   padding: 0;
   font-size: 14px;
+  background-color: #8cd9ff;
+  color: black;
 }
 
 .header {
@@ -12,7 +14,7 @@ body {
   flex-direction: column;
   position: sticky;
   top: 0px;
-  background-color: gray;
+  background-color: #6caddf;
 }
 .header__logo-link {
   text-decoration: none;
@@ -43,7 +45,7 @@ body {
   padding: 1rem;
 }
 .navbar-list__item:hover {
-  background-color: lightgray;
+  background-color: #3a55b4;
 }
 
 .homepage .hero,
@@ -77,8 +79,9 @@ body {
   margin-top: 8rem;
 }
 .homepage .hero__title {
-  font-size: 2.5rem;
-  text-shadow: 4px 4px lightgray;
+  font-size: 3rem;
+  text-shadow: 4px 4px #fed8b1;
+  color: #355e3b;
 }
 .homepage .about__image {
   width: 80%;
@@ -117,7 +120,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: gray;
+  background-color: #6caddf;
   position: sticky;
   bottom: 0;
 }

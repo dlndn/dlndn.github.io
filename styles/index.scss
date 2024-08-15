@@ -1,10 +1,15 @@
+@use "./partials/variables" as *;
+
 // homepage styles
 
+// general styling
 body {
     font-family: monospace;
     margin: 0;
     padding: 0;
     font-size: 14px;
+    background-color: $pale-azure;
+    color: black;
 }
 
 // header
@@ -15,7 +20,7 @@ body {
     flex-direction: column;
     position: sticky;
     top: 0px;
-    background-color: gray;
+    background-color: $argentinian-blue;
 
     &__logo-link {
         text-decoration: none;
@@ -51,7 +56,7 @@ body {
         padding: 1rem;
 
         &:hover {
-            background-color: lightgray;
+            background-color: $sapphire;
         }
     }
 }
@@ -86,8 +91,9 @@ body {
         }
 
         &__title {
-            font-size: 2.5rem;
-            text-shadow: 4px 4px lightgray;
+            font-size: 3rem;
+            text-shadow: 4px 4px $light-orange;
+            color: $hunter-green;
         }
     }
 
@@ -142,7 +148,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: gray;
+    background-color: $argentinian-blue;
     position: sticky;
     bottom: 0;
 }
