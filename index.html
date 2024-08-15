@@ -4,10 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage - dlndn</title>
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
+    <header class="header">
+        <a href="#hero-section" class="header__logo-link">
+            <h2 class="header__logo">dlndn</h2>
+        </a>
+        <nav class="header__navbar">
+            <ul class="navbar-list">
+                <a href="#about-section" class="navbar-list__link">
+                    <li class="navbar-list__item">About Me</li>
+                </a>
+                <a href="#projects-section" class="navbar-list__link">
+                    <li class="navbar-list__item">Projects</li>
+                </a>
+                <a href="#contact-section" class="navbar-list__link">
+                    <li class="navbar-list__item">Contact</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
     <main class="homepage">
-        <h1 class="homepage__title">dlndn's homepage</h1>
+        <section class="hero" id="hero-section">
+            <img class="hero__image" src="./images/gh-pfp.png" alt="dlndn's github profile pic.">
+            <h1 class="hero__title">Aidan De Leon</h1>
+            <h3 class="hero__subtitle hero__subtitle--line-1">Full Stack Developer</h3>
+            <h3 class="hero__subtitle hero__subtitle--line-2">From computer hardware 💻🛠️ to computer software 💻🧑🏻‍💻</h3>
+        </section>
+        <section class="about" id="about-section">
+            <img class="about__image" src="./images/portfolio-avatar.png" alt="An image of dlndn.">
+            <h2 class="about__title">About Me</h2>
+            <p class="about__description">Hello! I'm a full stack developer based in British Columbia, Canada. I was once a lost university student who stumbled upon a Python tutorial website, which started my journey into software development. My background consists of diplomas from British Columbia Institute of Technology's Computer Systems Technology program and BrainStation's Software Engineering (Web Development) Bootcamp. I have exposure to various languages and development environments in my studies, but my current focus is web development. In my free time, I am either making music, gaming, or drawing. Looking forward to hearing from you!</p>
+        </section>
+        <section class="projects" id="projects-section">
+            <h2 class="projects__title">Project(s)</h2>
+            <div class="project">
+                <img class="project__image" src="./images/socratic-soul-chatroom-emotions.png" alt="Socratic Soul's emotion chatroom.">
+                <div class="project__text">
+                    <h4 class="project__title">Socratic Soul</h4>
+                    <p class="project__description">Self-awareness in our emotions and relationships are important. The more we understand them the more better our lives will be. This app will ask you questions of self-discovery to learn more about navigating emotions and relationships.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact-section">
+            <h2 class="contact__title">Contact Me</h2>
+            <p class="contact__description">Click one of the icons below to connect with me.</p>
+            <p class="contact__description">It's an opportunity to grow and make ideas come to life!</p>
+            <img class="contact__arrow-icon" src="./images/icons/arrow-down.svg" alt="An arrow pointing down.">
+        </section>
     </main>
+    <footer class="footer">
+        <section class="contact-info">
+            <div class="contact-info__row">
+                <a href="#" class="contact-info__icon-link">
+                    <img class="contact-info__icon" src="./images/icons/mail.svg" alt="an email icon.">
+                </a>
+            </div>
+            <div class="contact-info__row">
+                <a href="#" class="contact-info__icon-link">
+                    <img class="contact-info__icon" src="./images/icons/gh-logo.svg" alt="GitHub icon.">
+                </a>
+            </div>
+            <div class="contact-info__row">
+                <a href="#" class="contact-info__icon-link">
+                    <img class="contact-info__icon" src="./images/icons/linkedin-logo.svg" alt="LinkedIn icon.">
+                </a>
+            </div>
+            <div class="contact-info__row instagram">
+                <a href="#" class="contact-info__icon-link">
+                    <img class="contact-info__icon" src="./images/icons/instagram-logo.svg" alt="Instagram icon.">
+                </a>
+            </div>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
